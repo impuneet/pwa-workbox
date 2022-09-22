@@ -7,7 +7,7 @@ console.log('environment', process.env.NODE_ENV);
   }
   // Check if the serviceWorker Object exists in the navigator object ( means if browser supports SW )
   if ('serviceWorker' in navigator) {
-    const wb = new Workbox('http://localhost:5000/sw.js');
+    const wb = new Workbox('https://wondrous-tiramisu-f5b502/sw.js');
 
     wb.addEventListener('installed', event => {
       /**
