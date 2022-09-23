@@ -19,6 +19,7 @@
 		}
 	],
 	"start_url": "/ebook/index.html",
+	"id": "/ebook/index.html",
 	"display": "standalone",
 	"theme_color": "#e50914",
 	"background_color": "#221f1f"
